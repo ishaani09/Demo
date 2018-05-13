@@ -1,10 +1,9 @@
-package RSComponents.steps;
+package com.rsComponents.steps;
 
-import RSComponents.pages.HomePage;
+import com.rsComponents.pages.HomePage;
 import org.junit.Assert;
 
 public class HomePageSteps {
-
     HomePage homePage;
 
     public void openHomePage() {

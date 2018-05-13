@@ -1,10 +1,10 @@
-package RSComponents.stepDefs;
+package com.rsComponents.stepDefs;
 
-import RSComponents.steps.HomePageSteps;
+import com.rsComponents.steps.HomePageSteps;
 import cucumber.api.java.en.Given;
 import net.thucydides.core.annotations.Steps;
 
-public class HomePageStepDefs {
+public class HomePageDefs {
     @Steps
     HomePageSteps homePageSteps;
 
@@ -12,5 +12,4 @@ public class HomePageStepDefs {
     public void IamOnHomepage() throws Exception {
         homePageSteps.openHomePage();
     }
-
 }

@@ -1,4 +1,4 @@
-package RSComponents.pages;
+package com.rsComponents.pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -8,7 +8,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 
 public class HomePage {
-
     @FindBy(css = "a[title='Log In']")
     WebElementFacade loginLink;
 
