@@ -1,5 +1,8 @@
 package RSComponents.stepDefs;
 
+import cucumber.api.java.en.Given;
+import net.thucydides.core.annotations.Steps;
+
 public class HomePageStepDefs {
     @Steps
     HomePageSteps homePageSteps;
