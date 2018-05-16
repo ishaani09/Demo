@@ -14,6 +14,7 @@ public class HomePage {
     private static String baseUrl = "https://uk.rs-online.com/web/";
 
     public void openHomePage() {
+
         WebDriver driver = new FirefoxDriver();
         driver.navigate().to(baseUrl);
     }
