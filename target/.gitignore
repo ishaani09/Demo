@@ -2,3 +2,8 @@
 *.iml
 .metadata/
 /target/
+.metadata/
+*.project
+*.classpath
+.settings/
+

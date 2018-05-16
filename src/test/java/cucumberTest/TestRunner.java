@@ -1,14 +1,15 @@
 package cucumberTest;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
+@RunWith(CucumberWithSerenity.class)
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber-reports",
         "json:target/surefire-reports/cucumberOriginal.json"},
         features = {"C:\\Users\\HK\\Demo\\src\\test\\java\\com\\rsComponents\\features\\endToEndTests.feature"},
-        glue = {"stepDefs"})
+        glue = {"com.rsComponents.stepDefs"})
 
 public class TestRunner {
 }
